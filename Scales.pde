@@ -74,5 +74,4 @@ void scale(int x, int y) {
   curveVertex(x,y+20);
   curveVertex(x,y+20);
   endShape();
-  
 }
