@@ -3,8 +3,7 @@ int y = 30;
 
 void setup() {
   size(400, 400);  //feel free to change the size
-  frameRate(1);
-  //noLoop(); //stops the draw() function from repeating
+  noLoop(); //stops the draw() function from repeating
   background(255,255,255);
 }
 
@@ -19,22 +18,6 @@ void draw() {
       }
     }
   }
- 
-  /* // while loop equivalent
-  int y = 500;
-  while(y > -25){
-    int x = 0;
-    while(x < 525){
-      if(y%50==0){
-        scale(x+10,y);
-      } else {
-        scale(x,y);
-      }
-      x = x + 25;
-    }
-    y = y - 25;
-  }*/
-
 }
 
 void scale(int x, int y) {
